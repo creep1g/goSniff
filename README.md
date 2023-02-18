@@ -25,7 +25,7 @@ Each of these parts run various go routines under different circumstances.
 ## Installation
 
 ```bash
-git clone git@github.com/creep1g:goSniff
+git clone git@github.com:creep1g/goSniff.git
 cd goSniff
 make build    // builds in current directory
 make install // adds goSniff to path
