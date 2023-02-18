@@ -6,9 +6,8 @@
 <p>
 	The goal of this project is te create a simple port sniff, we require it to be fast and therefore we use concurrency to get results as fast as possible.
 </p>
----------
-## Future goals
 
+### Future goals
     - Make input parsing better
     - Gather more information about ports and their Usage
 
@@ -23,7 +22,8 @@ The program is broken into 4 parts:
 
 Each of these parts run various go routines under different circumstances. 
 </p>
-## Installation
+
+### Installation
 
 ```bash
 git clone git@github.com:creep1g/goSniff.git
@@ -32,6 +32,13 @@ make build    // builds in current directory
 make install // adds goSniff to path
 
 ```
+
+### Uninstall
+
+```bash
+make clean
+```
+
 ## Usage 
 ```bash
 go run sniff.go -p <PORTS> <HOST/NETWORK> 
